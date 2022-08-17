@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+nav.nav-top{
+    background-image: linear-gradient( to right,  
+    rgb(119, 99, 99),
+    rgba(207, 46, 207, 0.805)
+  );purple );
+}
+
+nav.nav-top img {
+    width: 50px;
+}
+.nav-top .sign-in{
+    float: right;
+    margin: 1.5rem 1rem;
+    color: white;
+    font-weight: 700;
+}
+.nav-top .sign-in a {
+    color: white;
+    text-decoration: none;
+}
+.nav-top .sign-in a:hover {
+    color: black;
+}
+.clearfix{
+    clear: both;
+}
+
+.nav-main {
+    border: 2px solid black;
+    text-align: center;
+    height: 100px;
+    background-color: grey;
+    align-items: center;
+    
+}
+.nav-main a {
+    line-height: 90px;
+    font-size: x-large;
+    margin: 30px 70px;
+    margin-top: 90px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.nav-main a:hover {
+    color: yellow;
+    background-color:red;
+}
+.slack {
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    background-color: red;
+    font-size: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+}
+.fa-brands fa-slack {
+    /* -moz-osx-font-smoothing: grayscale; */
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+.fa-slack-hash:before, .fa-slack:before {
+    content: "\f198";
+}
+
+.slack:hover{
+    color: yellow;
+    font-size: xx-large;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 1000px;
+  
+}
